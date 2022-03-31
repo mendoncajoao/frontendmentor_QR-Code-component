@@ -1,10 +1,8 @@
 # frontendmentor_QR-Code-component
 Frontend mentor - QR Code Component Challenge
 
-This is my second try at this challenge.
+This is a basic card layout with an image, a main header and a description paragraph.
 
-The first try was done using only a flat design image. The result was not bad and it can be seem at the url below:
+The project was done using HTML and CSS.
 
-<INSERT URL FOR FIRST CHALLENGE TRY HERE>
-
-This try was done using the original figma file for the challenge.
+Any feedback on how to improve this would be very welcomed.
