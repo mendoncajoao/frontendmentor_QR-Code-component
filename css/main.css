@@ -1,0 +1,98 @@
+/* Variables */
+:root {
+
+/* breakpoints */
+--bp_mobile: 375px;
+--bp_desktop: 1440px;
+
+/* Basic Colors */
+--cl_black: hsla(0,0%,0%,1);
+--cl_white: hsla(0,0%,100%,1);
+
+/* Challenge colors */
+--cl_light-gray: hsla(212,45%,89%,1);
+--cl_grayish-blue: hsla(220,15%,55%,1);
+--cl_dark-blue: hsla(218,44%,22%,1);
+
+/* Footer colors */
+--cl_footer-text: var(--cl_dark-blue);
+--cl_footer-link: var(--cl_grayish-blue);
+
+
+/* Basic Font Styles */
+--fs_body: 15px;
+--ff_body: "Outfit", sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--ff_body);
+  font-size: var(--fs_body);
+
+  background: var(--cl_light-gray);
+} 
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  background: var(--cl_white);
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.qr-code_img {
+  border-radius: 10px;
+}
+
+.card-information {
+  text-align: center;
+  padding-top: 24px;
+}
+
+.card-heading {
+  color: var(--cl_dark-blue);
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.card-content {
+  color: var(--cl_grayish-blue);
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  padding: 16px;
+}
+
+/* Frontendmentor footer message styling */
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+  color: var(--cl_footer-text);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  color: var(--cl_footer-link);
+}
